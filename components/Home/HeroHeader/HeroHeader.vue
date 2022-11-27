@@ -5,7 +5,6 @@
         <video autoplay loop muted poster="/assets/videos/space-thumbnail.jpg" class="hero-header__video">
           <source src="/assets/videos/space.mp4" type="video/mp4">
           <source src="/assets/videos/space.webm" type="video/webm">
-          <source src="/assets/videos/space.ogv" type="video/ogg">
         </video>
       </div>
 

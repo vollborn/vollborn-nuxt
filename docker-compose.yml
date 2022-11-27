@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  app:
+    image: vollborn-nuxt
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - '3000:3000'
