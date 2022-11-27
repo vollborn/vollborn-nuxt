@@ -1,0 +1,17 @@
+// Color Palette: https://www.color-hex.com/color-palette/1019985
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background: #000;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Rubik&display=swap";
+
+@import "mixins/max-width";
+
+@import "components/Home/HeroHeader/HeroHeader";
+@import "components/Home/HeroScrollOver/HeroScrollOver";

@@ -1,0 +1,14 @@
+.hero-scroll-over {
+  position: relative;
+  z-index: 5;
+
+  &__content-wrapper {
+    background: #050505;
+    color: #fff;
+    padding: 4vw 0;
+  }
+
+  &__content {
+    @include max-width();
+  }
+}
