@@ -1,15 +1,15 @@
 <template>
   <div>
     <HeroHeader />
-    <!--<HeroScrollOver />-->
+    <HeroScrollOver />
   </div>
 </template>
 
 <script>
 import HeroHeader from "../components/Home/HeroHeader/HeroHeader";
-//import HeroScrollOver from "../components/Home/HeroScrollOver/HeroScrollOver";
+import HeroScrollOver from "../components/Home/HeroScrollOver/HeroScrollOver";
 
 export default {
-  components: {HeroHeader}
+  components: {HeroHeader, HeroScrollOver}
 }
 </script>
